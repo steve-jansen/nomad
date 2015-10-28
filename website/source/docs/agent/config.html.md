@@ -217,6 +217,11 @@ configured on server nodes.
 
 ## Atlas Options
 
+**NOTE**: Nomad integration with Atlas is awaiting release of Atlas features
+for Nomad support.  Nomad validates configuration options for Atlas,
+however, Nomad does not use the configuration options for Atlas.
+See [#183](https://github.com/hashicorp/nomad/issues/183) for more details.
+
 The following options are used to configure [Atlas](https://atlas.hashicorp.com)
 integration and are entirely optional.
 
